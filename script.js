@@ -13,4 +13,5 @@ form.addEventListener("submit", function (event) {
   else if(year) queryString = `?year=${year}`	
 
   urlElement.innerText = `https://localhost:8080/${queryString}`;
+	
 });
